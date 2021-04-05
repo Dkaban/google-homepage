@@ -10,33 +10,42 @@ li
     display: inline;
 }
 
+img
+{
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search input[type=text]
+{
+    position: fixed;
+    top: 35%;
+    left: 37%;
+    border-radius: 25px;
+    width: 25%;
+    height: 30px;
+}
+
+
 .button
 {
-    background-color: #008CBA;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 50%;
+    color: white;
+    background-color: grey;
+    height: 70px;
+    width: 70px;
+    margin-left:25px;
+    text-align: center;
+    line-height: 65px;
 }
 
 .button-group
 {
-    width: 100%;
-    text-align:center;
-}
-
-img.displayed
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.search-box
-{
-    width: 100%;
-    text-align:center;
+    position: fixed;
+    top: 40%;
+    left: 39%;
 }
