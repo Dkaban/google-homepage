@@ -1,6 +1,6 @@
 # Odin Project: Google Homepage
 
-## Objective:
+## Objective:  Front End Development
 - Recreate the Google Homepage using CSS, HTML, and Javascript.
 
 ### Functionality
