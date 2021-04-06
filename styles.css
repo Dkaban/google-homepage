@@ -1,16 +1,10 @@
-ul
+.topnav-right
 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    text-align: right;
+    padding: 14px 16px;
 }
 
-li
-{
-    display: inline;
-}
-
-img
+.center-img
 {
     position: fixed;
     top: 25%;
@@ -22,30 +16,30 @@ img
 {
     position: fixed;
     top: 35%;
-    left: 37%;
-    border-radius: 25px;
-    width: 25%;
+    left: 25%;
+    border-radius: 20px;
+    width: 50%;
     height: 30px;
 }
 
+.center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 350px auto 0;
+    align-content: center;
+    text-align: center;
+}
 
 .button
 {
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 50%;
-    color: white;
-    background-color: grey;
-    height: 70px;
-    width: 70px;
-    margin-left:25px;
+    padding: 30px 30px;
     text-align: center;
-    line-height: 65px;
-}
-
-.button-group
-{
-    position: fixed;
-    top: 40%;
-    left: 39%;
+    border-radius: 50%;
+    background-color: grey;
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    color: white;
 }
