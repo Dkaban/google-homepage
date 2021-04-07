@@ -8,12 +8,29 @@
     <body>
 
         <script>
-            let a = 10
-            console.log(a)
+            function add7(number)
+            {
+                return number+7;
+            }
+            console.log(add7(2));
 
-            let message;
-            message = 'Hello';
-            alert(message);
+            function multiply(num1,num2)
+            {
+                return num1*num2;
+            }
+            console.log(multiply(2,4));
+
+            function capitalize(word)
+            {
+                return word.charAt(0).toUpperCase() + word.slice(1)
+            }
+            console.log(capitalize("skittles"));
+
+            function lastLetter(word)
+            {
+                return word.charAt(word.length-1);
+            }
+            console.log(lastLetter("skittles"));
         </script>
 
         <header>
