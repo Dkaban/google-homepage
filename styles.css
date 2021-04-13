@@ -78,6 +78,8 @@ li.nav-links a:hover
     line-height: 32px;
     padding: 20px 10px;
     outline: none;
+    border-radius: 20px;
+    border-width: 1px;
 }
   
 .form #form-search 
